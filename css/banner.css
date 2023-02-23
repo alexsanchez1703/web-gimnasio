@@ -1,0 +1,49 @@
+.main__banner {
+    background-image: url(../img/banner.png);
+    width: 100vw;
+    padding-bottom: 15rem;
+    background-size: cover;
+    padding-top: 16.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.banner__info {
+    position: absolute;
+    padding-top: 10rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.banner__titulo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: Anton, cursive;
+    font-size: 3.125rem;
+}
+
+.banner__boton {
+    background-color: #F9EF23;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: Hanken Grotesk;
+    font-size: 1rem;
+    letter-spacing: 0.078125rem;
+}
+
+
+
+@media screen  and (min-width:600px) { 
+    .banner__titulo {
+        font-size: 4.125rem;
+    }
+    .banner__boton { 
+        font-size: 1.5rem;
+    }
+}

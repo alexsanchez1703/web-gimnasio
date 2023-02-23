@@ -1,0 +1,101 @@
+.main__diferenciales {
+    background-color: #141414;
+    padding-top: 2rem;
+    width: 100vw;
+}
+
+.diferenciales__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.diferenciales__info__titulo {
+    font-family: Anton, cursive;
+    color: #F9EF23;
+    font-size: 2.75rem;
+    text-transform: uppercase;
+}
+
+.diferenciales__info__parrafo {
+    font-family: Hanken Grotesk, cursive;
+    color: #ffffff;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+}
+
+.diferenciales__enlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.diferencial__enlace1 {
+    background-image: url(../img/dif\ 1.png);
+    background-size: cover;
+    padding-top: 22rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20rem;
+    position: relative;
+}
+
+.diferencial__enlace2 {
+    background-image: url(../img/dif\ 2.png);
+    background-size: cover;
+    padding-top: 22rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20rem;
+    position: relative;
+}
+
+.diferencial__enlace3 {
+    background-image: url(../img/dif\ 3.png);
+    background-size: cover;
+    padding-top: 22rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20rem;
+    position: relative;
+}
+
+.diferencial__enlace__titulo {
+    position: absolute;
+    top: 50%;
+    color: #ffffff;
+    font-family: Anton;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width:600px) { 
+    .diferenciales__info__parrafo {
+        font-size: 1rem; 
+    }
+    .diferencial__enlace1, .diferencial__enlace2, .diferencial__enlace3 {
+        width: 25rem;
+    }
+    .diferencial__enlace__titulo { 
+        font-size: 2rem;
+    }
+}
+
+@media screen  and (min-width:992px) {  
+    .diferenciales__enlaces { 
+        flex-direction: row;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        gap: 1rem;
+    }
+}

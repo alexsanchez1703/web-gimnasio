@@ -1,0 +1,85 @@
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: absolute;
+    padding-bottom: 0.75rem;
+}
+
+.encabezado__Gym {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   padding-top: 5rem;
+   text-decoration: none;
+   align-self: flex-start;
+   margin-left: 1rem;
+}
+
+.encabezado__Gym__icon {
+    width: 1.5625rem;
+}
+
+.encabezado__Gym__titulo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: Anton;
+    font-size: 1.25rem;
+}
+
+.encabezado__nav {
+    margin-top: 3rem;
+    text-align: center;
+    line-height: 1.25;
+    font-weight: 550;
+}
+
+.nav__lista__link {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: Anton;
+    letter-spacing: 0.15625rem;
+    font-size: 1.33rem;
+}
+
+@media screen  and (min-width:600px) {
+    .encabezado {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .encabezado__Gym__icon {
+        width: 2.5625rem;
+    }
+
+    .encabezado__Gym__titulo {
+        font-size: 2.25rem;
+    }
+
+    .nav__lista__link {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen  and (min-width:992px) {
+    .encabezado {
+        justify-content: space-between;
+    }
+
+    .encabezado__Gym { 
+        margin-left: 2rem;
+    }
+
+    .encabezado__nav {
+        margin-top: 5rem;
+        margin-right: 2rem;
+    }
+    
+    .encabezado__nav__listas {
+        display: flex;
+        gap: 1rem;
+    }
+}

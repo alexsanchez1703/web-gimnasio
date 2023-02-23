@@ -1,0 +1,74 @@
+.main__detalles {
+    background-color: #141414;
+    width: 100vw;
+}
+
+.detalle_deportista {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.titulo__detalle {
+    font-family: Anton, cursive;
+    color: #F9EF23;
+    font-size: 2.75rem;
+    text-transform: uppercase;
+}
+.titulo__parrafo {
+    font-family: Hanken Grotesk, cursive;
+    font-size: 1.125rem;
+    color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.detalle__masinfo {
+    font-family: Hanken Grotesk;
+    color: #ffffff;
+}
+
+.imagenes__deportistas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.imagen__deportista {
+    width: 13.25rem;
+}
+
+@media screen and (min-width:600px) {
+    .imagen__deportista {
+        width: auto;
+    }
+}
+
+@media screen  and (min-width:992px) { 
+    .main__detalles {
+        display: flex;
+    }
+
+    .detalle_deportista { 
+        padding-top: 8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .imagenes__deportistas {
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 3rem;
+        margin-right: 3rem;
+    }
+    .imagen__deportista {
+        width: 15rem;
+    }
+
+    #imagen__deportista2 {
+        margin-top: 10rem;
+    }
+}
